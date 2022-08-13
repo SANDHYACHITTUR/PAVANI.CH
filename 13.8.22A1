@@ -1,0 +1,43 @@
+#include<stdio.h>
+int main()
+
+{
+	int i,j;
+	char ch='A',ch1='a';
+	for(i=1;i<=5;i++)
+	{
+		for(j=1;j<=i;j++)
+		{
+			printf("%2c%2c",ch,ch1);
+			ch++;
+			ch1++;
+		}
+		printf("\n");
+	}
+	return 0;
+}
+-------------
+OUTPUT:-1
+-------------
+ A a
+ B b C c
+ D d E e F f
+ G g H h I i J j
+ K k L l M m N n O o
+
+--------------------------------
+Process exited after 0.04005 seconds with return value 0
+Press any key to continue . . .
+-------------
+OUTOUT:-2
+-------------
+ A a
+ B b C c
+ D d E e F f
+
+--------------------------------
+Process exited after 0.03577 seconds with return value 0
+Press any key to continue . . .
+
+
+
